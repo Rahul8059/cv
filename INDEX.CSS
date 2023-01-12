@@ -1,23 +1,89 @@
-
-
-.rahul{
-    background-color: antiquewhite;
+body{
+    background-color: #65c4c481;
 }
-.yadav{
-    background-color: violet;
+
+.main{
+     padding-bottom: 20px;
+}
+.main-p{
+    width:70%;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color:rgb(3 38 255 / 68%);
+    border-width: 7px;
+    width: 5%;
+
+}
+.table{
+  margin:0 auto 30px;
+}
+h1{
+    color:  #2836d0;
+    margin:10px;
+    padding-bottom: 10px;
+}
+p{
+    margin:10px;
+}
+.main-body{
+    padding: 20px 0 25px 0;
 }
 .work{
-    background-color: cornsilk;
+    padding: 20px 0 35px 0;
 }
 .rating{
-    background-color: rgb(255, 202, 202);
+    padding: 20px 0 25px 0;
 }
-.rao{
-    background-color: rgb(234, 206, 170);
+.advertising{
+    padding: 20px 0 25px 0;
+}
+h3{ 
+    color: #2836d0;
+}
+.image{
+    border-radius:80%;
+    width: 175px;
+    height:175px;
+  
+}
+.image:hover{
+    width:800px;
+    height:700px;
 }
 .hobby{
-    background-color: azure;
+    color:#2836d0;
 }
-.hob{
-    background-color: rgb(220, 142, 47);
+.contact{
+    color: #2836d0;
 }
+
+
+/*when no bullet or no numbering required then take ol or ul and class name give then il.classnamw in that liststylenone ,margin and padding 0*/
+
+
+ul.unorder{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+}
+a{
+   color:rgb(240 63 63);
+}
+.submit{
+    color:#2836d0;
+    width:70px;
+    height: 30px;
+  }
+  .frm input{
+    border:2px solid #2836d0;
+    border-radius: 10%;
+  }
+  .frm textarea{
+    border:2px solid #2836d0;
+    border-radius: 15%;
+  }
+  h3{
+    line-height: 1.5;
+  }
